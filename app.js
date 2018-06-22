@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $("#searchBtn").on("click", function(){
+    $("#searchBtn").on("click", function(event){
+        event.preventDefault();
 
         $.ajax({
             url: "https://api.nytimes.com/svc/search/v2/articlesearch.json?apikey=a6b6df30f4c540eda9db5f2a9a2324de",
