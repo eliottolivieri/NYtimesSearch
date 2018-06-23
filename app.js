@@ -1,3 +1,5 @@
+// This is the JS file for the NY times app
+
 $(document).ready(function(){
     $("#searchBtn").on("click", function(event){
         event.preventDefault();
